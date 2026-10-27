@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Device (your forks) -->
+  <project path="device/samsung/t2s" name="BlackbirdSCV/android_device_samsung_t2s" remote="github" revision="pixelos-16" />
+  <project path="device/samsung/universal2100-common" name="BlackbirdSCV/android_device_samsung_universal2100-common" remote="github" revision="pixelos-16" />
+
+  <!-- Kernel -->
+  <project path="kernel/samsung/universal2100" name="exy2100/android_kernel_samsung_universal2100" remote="github" revision="lineage-23.2" />
+
+  <!-- Vendor (blobs) -->
+  <project path="vendor/samsung/t2s" name="Pandaispro/proprietary_vendor_samsung_t2s" remote="github" revision="lineage-23.2" />
+  <project path="vendor/samsung/universal2100-common" name="Pandaispro/proprietary_vendor_samsung_universal2100-common" remote="github" revision="t2s-lineage-23.2" />
+
+  <!-- Samsung hardware (forks with S21 changes) -->
+  <project path="hardware/samsung" name="BlackbirdSCV/android_hardware_samsung" remote="github" revision="pixelos-16" />
+  <project path="device/samsung_slsi/sepolicy" name="Pandaispro/android_device_samsung_slsi_sepolicy" remote="github" revision="lineage-23.2" />
+  <project path="hardware/samsung_slsi-linaro/exynos" name="exy2100/android_hardware_samsung_slsi-linaro_exynos" remote="github" revision="lineage-23.2" />
+
+  <!-- Samsung hardware (LineageOS upstream) -->
+  <project path="hardware/samsung_slsi-linaro/config" name="LineageOS/android_hardware_samsung_slsi-linaro_config" remote="github" revision="lineage-23.2" />
+  <project path="hardware/samsung_slsi-linaro/graphics" name="LineageOS/android_hardware_samsung_slsi-linaro_graphics" remote="github" revision="lineage-23.2" />
+  <project path="hardware/samsung_slsi-linaro/interfaces" name="LineageOS/android_hardware_samsung_slsi-linaro_interfaces" remote="github" revision="lineage-23.2" />
+  <project path="hardware/samsung_slsi-linaro/openmax" name="LineageOS/android_hardware_samsung_slsi-linaro_openmax" remote="github" revision="lineage-23.2" />
+  <project path="hardware/nxp/uwb" name="LineageOS/android_hardware_nxp_uwb" remote="github" revision="lineage-23.2" />
+</manifest>
